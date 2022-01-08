@@ -24,9 +24,9 @@ public class Main {
         driver.get("https://login.wsb.pl/cas/login?service=https%3A%2F%2Fmoodle2.e-wsb.pl%2Flogin%2Findex.php%3FauthCAS%3DCAS");
         //Input and submit credentials
         WebElement element = driver.findElement(By.xpath("//*[@id=\"username2\"]"));
-        element.sendKeys("gdx155532");
+        element.sendKeys("");
         WebElement element2 = driver.findElement(By.xpath("//*[@id=\"password\"]"));
-        element2.sendKeys("95050805637");
+        element2.sendKeys("");
         WebElement button = driver.findElement(By.xpath("//*[@id=\"login_button\"]"));
         button.click();
 
